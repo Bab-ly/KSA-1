@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body, h1, h2, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .banner {
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      text-align: center;
+    }
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1500px;
+      margin: 10px auto;
+      padding: 40px;
+    }
+    
+    .left-column, .right-column {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      clear: both;
+    }
+    
+    footer ul {
+      list-style-type: none;
+    }
+    
+    footer ul li {
+      text-align: justify;
+      display: inline;
+      margin-right: 10px;
+    }
+    input{
+      padding: 10px;
+    }
+    button
+    {
+      height: 40px;
+      padding: 10px;
+      color: white;
+      background-color: #333;
+    }
+    .right-column h2{
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Blogs</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <h1>221902216</h1>
+  </div>
+
+  <div class="container">
+    <div class="left-column">
+      <h2>Latest Blogs <br><br></h2>
+      <ul>
+        <li><b>Sundarbans:</b> Discover mystic mangrove forests, home to Bengal tigers. 
+          Boat safaris unveil rich wildlife. Witness local life and stunning sunsets. <br> <br></li>
+        <li><b>Saint Martin: </b> Serene island escape with pristine beaches.
+           Snorkel in clear waters, enjoy bonfires under starry skies. <br> <br></li>
+        <li><b>Kuakata: </b> Tranquil coastal town with panoramic beaches. 
+          Explore local culture, savor seafood, and immerse in beachside festivities. <br> <br></li>
+      </ul>
+    </div>
+    <div class="right-column">
+      <h2>About Me <br> </h2>
+      <p>I am Jannatun Nahar Bably. My hometown is Narayanganj. I am 23 years old.  Currently I am studying at 
+        Green University of Bangladesh Dept. Of CSE. My future goals is to graduate from University then to settle 
+        in abroad. Also want to have a small business on my own.<br><br></p>
+      <h2>Join Mailing List <br> </h2>
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
